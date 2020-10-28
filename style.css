@@ -1,0 +1,427 @@
+.nav >li{
+    
+padding-left:15px;
+  padding-right:25px;
+font-weight: bold;
+font-family: 'Saira Condensed', sans-serif;
+}
+
+.ull
+{
+      position: relative;
+  
+    left:10px;  
+}
+a{
+    color:black;
+    font-weight: 20px;
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.welcome{
+    font-weight: bold;
+    position: relative;
+    margin-top: 50px;
+     letter-spacing: 3px;
+    left:100px;
+    color:white;
+    font-size: 70px;
+   font-family: 'Saira Condensed', sans-serif;
+}
+.cosmic-heading
+{
+    font-size: 70px;
+     letter-spacing: 3px;
+     position: relative;
+        margin-top: 50px;
+    left:100px;
+    color:blue;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+img.rounded-corners {
+  border-radius: 30px;
+}
+
+.col-9
+{
+position: relative;
+  left:80px;    
+}
+
+.col-9_para
+{
+    font-family: 'Saira Condensed', sans-serif;
+     font-size: 40px;
+     right:300px;
+     color:white;
+}
+
+.logo_1
+{
+   position: relative;
+   top: -120px; 
+   right:40px;
+  
+}
+.download
+
+{ font-weight: bold;
+    font-size: 35px;
+    color:#b8860b;
+   font-family: 'Saira Condensed', sans-serif; 
+   position: relative;
+  top: -100px;
+}
+
+#google 
+{
+      left:50px;
+   position: relative;
+   top: -120px;
+}
+
+#apple
+{
+    left:50px;
+   position: relative;
+   top: -120px;
+}
+
+.about-cosmic-heading{
+    position: relative;
+    font-weight: bold;
+   left:100px;
+   color:#b8860b;
+   text-decoration: underline;
+   font-family: 'Saira Condensed', sans-serif;
+   top:-80px;
+}
+
+.about-cosmic-para{
+    position: relative;
+   left:100px;
+    top:-60px;
+   font-size: 25px;
+   color:white;
+   font-family: 'Saira Condensed', sans-serif;
+}
+
+.feature1
+{
+      position: relative;
+        margin-top: 25px;
+    border:#b8860b solid 5px;
+    height: 200px;
+    width:1000px;
+    font-weight: bold;
+    position: relative;
+    
+    left:100px;
+}
+
+.feature2
+{
+     position: relative;
+     border:#b8860b solid 5px;
+    height: 200px;
+    width:1000px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 25px;
+   left:450px;
+ 
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+    position: relative;
+      margin-top: 20px;
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#b8860b;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.bottom-logo
+{
+     position: relative;
+      margin-top: 20px;
+    width:110px;
+    height:110px;
+}
+
+#myVideo {
+  position: fixed;
+width: 100%    !important;
+  height: auto   !important;
+}
+
+
+.theory1
+{
+    font-size:20px;
+    width:650px;
+    margin-top: 30px;
+}
+.about-cosmic-heading-chat
+{
+   position: relative;
+    font-weight: bold;
+
+   color:black;
+   
+   font-family: 'Saira Condensed', sans-serif;  
+}
+
+.features-quotes2
+{
+    font-size: 25px;
+    position: relative;
+    left:170px;
+}
+.chat
+{
+ position: relative;
+     left:185px;    
+}
+
+.img2
+{
+   
+    right:5px;
+        
+         height:210px;
+    width:250px;
+    padding:5px;
+    margin:10px;
+    position: relative;
+}
+
+.theory2
+{
+    
+    font-size:20px;
+    width:650px;
+    margin-top: 30px;
+    
+    position: relative;
+   
+   left:100px;
+}
+#feat-1
+{
+    position: relative;
+    top:-50px;
+    border:transparent solid 5px;
+    width: 1350px;
+    height:1800px;
+}
+.feature11
+{
+    text-align: center;
+    color:#b8860b;
+}
+.theory111
+{
+  
+    width:1000px;
+    height: 180px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 27px;
+    margin-top: 20px;
+    color:white;
+}
+.theoryy
+{
+    color:white;
+}
+.img3
+{
+    position: relative;
+    margin-top: 20px;
+}
+
+.about{
+    position: relative;
+  margin-top: -150px;
+}
+
+.users
+{
+     font-size: 25px;
+ font-family: 'Saira Condensed', sans-serif;   
+}
+.user{
+    font-weight: bold;
+    color:#b8860b;
+}
+.blog
+{
+color:white;
+  font-family: 'Saira Condensed', sans-serif;   
+   font-size: 27px;
+   position: relative;
+    left:100px;
+    top:-40px;
+}
+.users-para
+{
+    color:white;
+}
